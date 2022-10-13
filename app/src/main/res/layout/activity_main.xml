@@ -31,5 +31,14 @@
         android:text="Barrack Obama"
         android:textSize="40sp" />
 
+    <ImageView
+        android:id="@+id/next_card_button"
+        android:layout_width="97dp"
+        android:layout_height="101dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="302dp"
+        app:srcCompat="@drawable/ic_outline_arrow_circle_right_24" />
 
 </RelativeLayout>
