@@ -4,15 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fce5cd"
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_margin="40dp"
         android:id="@+id/flash_card_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:elevation="20dp"
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
+        android:background="#e2d5f1"
         android:textSize="40sp" />
 
     <ImageView
@@ -24,11 +27,13 @@
         app:srcCompat="@drawable/ic_baseline_add_circle_outline_24" />
 
     <TextView
+        android:layout_margin="70dp"
         android:id="@+id/flash_card_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
         android:text="Barrack Obama"
+        android:background="#f4ff4b"
         android:textSize="40sp" />
 
     <ImageView
